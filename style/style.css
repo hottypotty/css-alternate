@@ -16,7 +16,6 @@
 
 
 /* MARGIN */
-
 /* .container {
 
     border: 5px solid blue;
@@ -41,7 +40,6 @@
 
 
 /* MARGIN COLLAPSING */
-
 /* .container {
 
     border: 5px solid blue;
@@ -65,8 +63,7 @@ p {
 
 
 /* BORDER */
-
-body {
+/* body {
 
     font-family: sans-serif;
 }
@@ -87,4 +84,28 @@ body {
     border-top-style: dotted;
     border-right-width: 20px;
     border-bottom-color: hotpink;
+} */
+
+
+/* PADDING */
+body {
+    font-family: sans-serif;
 }
+
+
+.box {
+    border: 5px solid rebeccapurple ;
+    background-color: lightgray;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+
+}
+
+.container {
+    border: 5px solid blue;
+    margin: 40px;
+    padding: 20px;
+}
+
